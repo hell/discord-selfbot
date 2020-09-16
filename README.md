@@ -39,7 +39,7 @@ Commands:
 
 .attachments (OPTIONAL: username) -> deletes all of the attachments/images you've sent in the current channel if the username is not specified, works the same way as .clear
 
-.edit (OPTIONAL: username) "TEXT" -> edits all of your messages in the current channel if the username is not specified, works the same way as .clear
+.edit "TEXT" (OPTIONAL: username) -> edits all of your messages in the current channel if the username is not specified, works the same way as .clear
 
 .clearfriends -> deletes all of your messages with every single person you have added
 
