@@ -11,8 +11,7 @@ def get_token(email, password):
     "content-type": "application/json"}
     payload = {"email":email,"password":password}
     request = requests.post(URL, headers=headers, data=json.dumps(payload)).json()
-    token = request['token']
-    return token
+    return request['token']
 
 if __name__ == "__main__":
     print("Discord Token Parser | github.com/hell ")
