@@ -31,3 +31,18 @@ You would need to additionally install pyperclip and requests in order to use it
 pip install pyperclip
 pip install requests
 ```
+
+Commands:
+
+```
+.clear (OPTIONAL: username) -> deletes all of the messages in the current channel if the username is not specified, otherwise deletes the messages with the specified person (tries to find it using the username you've specified) 
+
+.attachments (OPTIONAL: username) -> deletes all of the attachments/images you've sent in the current channel if the username is not specified, works the same way as .clear
+
+.edit (OPTIONAL: username) "TEXT" -> edits all of your messages in the current channel if the username is not specified, works the same way as .clear
+
+.clearfriends -> deletes all of your messages with every single person you have added
+
+```
+
+
